@@ -65,13 +65,13 @@
 				<li><a href="http://nostressgaming.fr/World-of-warcraft/Charte-de-guilde.php">Charte de guilde</a></li>
 			</ul>
 		</li>
-<!-- Menu guide wow-->				
+<!-- Menu guide wow				
 		<li class="dropdown">
 			<a href="#" class="dropdown-toggle" data-toggle="dropdown">WOW Guide<b class="caret"></b></a>
 			<ul class="dropdown-menu">
 				<li><a href="http://nostressgaming.fr/WOWGuide/T17.php">Highmaul</a></li>
 			</ul>
-		</li>
+		</li>-->
 <!-- Menu HOTS-->	
 		<li><a href="http://nostressgaming.fr/Heroes-of-the-storm/HOTS.php">HOTS</a></li>	
 <!-- Menu Forum-->				
