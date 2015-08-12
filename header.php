@@ -72,8 +72,8 @@
 				<li><a href="http://nostressgaming.fr/WOWGuide/T17.php">Highmaul</a></li>
 			</ul>
 		</li>-->
-<!-- Menu HOTS-->	
-		<li><a href="http://nostressgaming.fr/Heroes-of-the-storm/HOTS.php">HOTS</a></li>	
+<!-- Menu HOTS	
+		<li><a href="http://nostressgaming.fr/Heroes-of-the-storm/HOTS.php">HOTS</a></li>-->	
 <!-- Menu Forum-->				
 		<li><a href="http://nostressgaming.fr/Forum/">Forum</a></li>
 	</ul>
