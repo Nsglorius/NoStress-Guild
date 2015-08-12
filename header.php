@@ -77,11 +77,16 @@
 <!-- Menu Forum-->				
 		<li><a href="http://nostressgaming.fr/Forum/">Forum</a></li>
 	</ul>
+	<marquee style="background-color:#343434;direction="right";color:#0000003">News</marquee>
 </div>
 		
 		
-	
+
 </div>
+
+
+
+
 <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
  
