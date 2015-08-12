@@ -19,6 +19,7 @@
 
 <title>No Stress Gaming :Esport, WoW, HOTS, Diablo, LOL</title>
 
+<!-- Config de boostrap JS et lightbox-->
 <link href="http://nostressgaming.fr/bootstrap/css/bootstrap.css" rel="stylesheet">
 <script src="http://nostressgaming.fr/js/jquery-1.11.0.min.js"></script>
 <script src="http://nostressgaming.fr/lightbox/js/lightbox.min.js"></script>
