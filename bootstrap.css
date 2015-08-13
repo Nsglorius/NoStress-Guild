@@ -113,6 +113,7 @@ input,
 optgroup,
 select,
 textarea {
+	
   margin: 0;
   font: inherit;
   color: inherit;
@@ -4123,8 +4124,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: #f8f8f8;
-  border-color: #e7e7e7;
+  background-color: # Code Hex :;
+  border-color: #CB2323;
 }
 .navbar-default .navbar-brand {
   color: #777;
@@ -4219,27 +4220,27 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #ccc;
 }
 .navbar-inverse {
-  background-color: #222;
-  border-color: #080808;
+  background-color: #232323;
+  border-color: #960000;
 }
 .navbar-inverse .navbar-brand {
-  color: #777;
+  color:  #FFFFFF;
 }
 .navbar-inverse .navbar-brand:hover,
 .navbar-inverse .navbar-brand:focus {
   color: #fff;
-  background-color: transparent;
+  background-color: #960000;
 }
 .navbar-inverse .navbar-text {
-  color: #777;
+  color: #FFFFFF;
 }
 .navbar-inverse .navbar-nav > li > a {
-  color: #777;
+  color: #FFFFFF;
 }
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
   color: #fff;
-  background-color: transparent;
+  background-color: #960000;
 }
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover,
@@ -4254,11 +4255,11 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   background-color: transparent;
 }
 .navbar-inverse .navbar-toggle {
-  border-color: #333;
+  border-color: #960000;
 }
 .navbar-inverse .navbar-toggle:hover,
 .navbar-inverse .navbar-toggle:focus {
-  background-color: #333;
+  background-color: #960000;
 }
 .navbar-inverse .navbar-toggle .icon-bar {
   background-color: #fff;
