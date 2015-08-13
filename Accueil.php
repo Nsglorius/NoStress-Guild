@@ -45,32 +45,16 @@
 					<div class="jms-content" ;>
 						<h3>Legion</h3>
 					<p>Plus de news bientot</p>
-						<a class="jms-link" href="#">Read more</a>
+						 <!--<a class="jms-link" href="#">Read more</a>!-->
 					</div>
-				
-				</div>
-				<div class="step" data-color="color-3">
+			    </div>
+			    <div class="step" data-color="color-2">
 					<div class="jms-content" ;>
 						<h3>Legion</h3>
 					<p>Plus de news bientot</p>
-						<a class="jms-link" href="#">Read more</a>
+				 <!--	<a class="jms-link" href="#">Read more</a>!-->
 					</div>
-				
-				</div>
-						<div class="step" data-color="color-1">
-					<div class="jms-content" ;>
-						<h3>Legion</h3>
-					<p>Plus de news bientot</p>
-						<a class="jms-link" href="#">Read more</a>
-					</div>
-				
-				</div>
-				<div class="step" data-color="color-2">
-					<div class="jms-content" ;>
-						<h3>Legion</h3>
-					<p>Plus de news bientot</p>
-						<a class="jms-link" href="#">Read more</a>
-					</div>
+			    </div>
 				
 				</div>
 			</section>
