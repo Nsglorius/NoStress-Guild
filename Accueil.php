@@ -37,17 +37,16 @@
 				<div class="step" data-color="color-1">
 					<div class="jms-content" ;>
 						<h3>Legion</h3>
-					<p>Plus de news bientot</p>
+					<p>Plus de news bienôt</p>
 						 <!--<a class="jms-link" href="#">Read more</a>!-->
 					</div>
 			    </div>
-			    <div class="step" data-color="color-2">
+			    <div class="step" data-color="color-3">
 					<div class="jms-content" ;>
-						<h3>Legion</h3>
-					<p>Plus de news bientot</p>
-				 <!--	<a class="jms-link" href="#">Read more</a>!-->
+						<h3>HOTS patch note</p>
+				 <a class="jms-link" href="http://us.battle.net/heroes/en/blog/19818499/heroes-of-the-storm-ptr-patch-notes-august-10-2015-8-10-2015">Read more</a>
 					</div>
-			    </div>
+			    </div>http://us.battle.net/heroes/en/blog/19818499/heroes-of-the-storm-ptr-patch-notes-august-10-2015-8-10-2015
 				
 				</div>
 			</section>
