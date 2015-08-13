@@ -90,7 +90,7 @@
 <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
  
-<!-- Ouverture de la BDD->
+<!-- Ouverture de la BDD!-->
 <?php
 	try
 	{
