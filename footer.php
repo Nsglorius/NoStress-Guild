@@ -154,6 +154,12 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="http://nostressgaming.fr/jquery.js"></script>
     <script src="http://nostressgaming.fr/bootstrap/js/bootstrap.min.js"></script>
+ 
+	<script type="text/javascript" src="http://nostressgaming.fr/slidedown/js/jmpress.min.js"></script>
+	<!-- jmslideshow plugin : extends the jmpress plugin -->
+	<script type="text/javascript" src="http://nostressgaming.fr/slidedown/js/jquery.jmslideshow.js"></script>
+	<script type="text/javascript" src="http://nostressgaming.fr/slidedown/js/modernizr.custom.48780.js"></script>
+	
 
 <?php
 mysql_close();
