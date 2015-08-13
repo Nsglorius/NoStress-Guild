@@ -3,7 +3,8 @@
     <!-- Flux d'actualitÃ© automatique avec le contenue du fichier Article_Accueil!-->
      
     <body>
-     
+        <?php include("http://nostressgaming.fr/slidedown/demo.htm"); ?>
+
     <?php
     $req = $bdd->query("DELETE FROM `Temp_Liste_fichier`"); // On vide la table temp
     $dir_nom = './Article_Accueil'; // On dÃ©finit le dossier Ã  utiliser.
