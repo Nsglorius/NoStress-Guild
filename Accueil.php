@@ -12,14 +12,7 @@
         <link rel="stylesheet" type="text/css" href="http://nostressgaming.fr/slidedown/css/demo.css" />
         <link rel="stylesheet" type="text/css" href="http://nostressgaming.fr/slidedown/css/style.css" />
 
-		<!-- jQuery -->
-		
-		<!-- jmpress plugin -->
-		<script type="text/javascript" src="http://nostressgaming.fr/slidedown/js/jmpress.min.js"></script>
-		<!-- jmslideshow plugin : extends the jmpress plugin -->
-		<script type="text/javascript" src="http://nostressgaming.fr/slidedown/js/jquery.jmslideshow.js"></script>
-		<script type="text/javascript" src="http://nostressgaming.fr/slidedown/js/modernizr.custom.48780.js"></script>
-		<noscript>
+<noscript>
 			<style>
 			.step {
 				width: 100%;
