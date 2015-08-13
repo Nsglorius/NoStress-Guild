@@ -897,17 +897,11 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-padding-top: 70px; 
+padding-top: 20px; 
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
-
-background:url('http://nostressgaming.fr/Image/wow-wallpaper.jpg') no-repeat center fixed;
--webkit-background-size: cover; /* pour Chrome et Safari */
--moz-background-size: cover; /* pour Firefox */
--o-background-size: cover; /* pour Opera */
-background-size: cover; /* version standardisÃ©e */;
   background-color: #07212E;
 }
 input,
