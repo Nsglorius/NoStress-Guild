@@ -1,9 +1,100 @@
-
     <?php include("./Header.php"); ?> <!-- Incrustation du header avec le menu, la BDD et bootstrap!-->
      
     <!-- Flux d'actualitÃ© automatique avec le contenue du fichier Article_Accueil!-->
      
     <body>
+<!DOCTYPE html>
+<html lang="en">
+
+
+        <link rel="shortcut icon" href="../favicon.ico"> 
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300,300italic' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="http://nostressgaming.fr/slidedown/css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="http://nostressgaming.fr/slidedown/css/style.css" />
+
+		<!-- jQuery -->
+		
+		<!-- jmpress plugin -->
+		<script type="text/javascript" src="http://nostressgaming.fr/slidedown/js/jmpress.min.js"></script>
+		<!-- jmslideshow plugin : extends the jmpress plugin -->
+		<script type="text/javascript" src="http://nostressgaming.fr/slidedown/js/jquery.jmslideshow.js"></script>
+		<script type="text/javascript" src="http://nostressgaming.fr/slidedown/js/modernizr.custom.48780.js"></script>
+		<noscript>
+			<style>
+			.step {
+				width: 100%;
+				position: relative;
+			}
+			.step:not(.active) {
+				opacity: 1;
+				filter: alpha(opacity=99);
+				-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=99)";
+			}
+			.step:not(.active) a.jms-link{
+				opacity: 1;
+				margin-top: 40px;
+			}
+			</style>
+		</noscript>
+    </head>
+    <body>
+   
+
+			<section id="jms-slideshow" class="jms-slideshow">
+				<div class="step" data-color="color-1">
+					<div class="jms-content" ;>
+						<h3>Legion</h3>
+					<p>Plus de news bientot</p>
+						<a class="jms-link" href="#">Read more</a>
+					</div>
+				
+				</div>
+				<div class="step" data-color="color-3">
+					<div class="jms-content" ;>
+						<h3>Legion</h3>
+					<p>Plus de news bientot</p>
+						<a class="jms-link" href="#">Read more</a>
+					</div>
+				
+				</div>
+						<div class="step" data-color="color-1">
+					<div class="jms-content" ;>
+						<h3>Legion</h3>
+					<p>Plus de news bientot</p>
+						<a class="jms-link" href="#">Read more</a>
+					</div>
+				
+				</div>
+				<div class="step" data-color="color-2">
+					<div class="jms-content" ;>
+						<h3>Legion</h3>
+					<p>Plus de news bientot</p>
+						<a class="jms-link" href="#">Read more</a>
+					</div>
+				
+				</div>
+			</section>
+       
+		<script type="text/javascript">
+			$(function() {
+				
+				var jmpressOpts	= {
+					animation		: { transitionDuration : '0.8s' }
+				};
+				
+				$( '#jms-slideshow' ).jmslideshow( $.extend( true, { jmpressOpts : jmpressOpts }, {
+					autoplay	: true,
+					bgColorSpeed: '0.8s',
+					arrows		: false
+				}));
+				
+			});
+		</script>
+    </body>
+
+
+     
+
 
 
     <?php
@@ -54,7 +145,6 @@
      
     </body>
      
+    <?php include("./Footer.php"); ?> <!-- Incrustation du header avec le menu, la BDD et bootstrap!-->
      
-     
-     
-    <?php include("./Footer.php"); ?> <!-- Incrustation du footer avec Jquery !-->
+    
