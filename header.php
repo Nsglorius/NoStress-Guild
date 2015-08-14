@@ -20,17 +20,13 @@
 	<title>No Stress Gaming :Esport, WoW, HOTS, Diablo, LOL</title>
 	
 	<!-- Config de boostrap JS et lightbox-->
-	<link href="http://nostressgaming.fr/bootstrap/css/bootstrap.css" rel="stylesheet">
-	<script src="http://nostressgaming.fr/js/jquery-1.11.0.min.js"></script>
-	<script src="http://nostressgaming.fr/lightbox/js/lightbox.min.js"></script>
-	<link href="http://nostressgaming.fr/lightbox/css/lightbox.css" rel="stylesheet" />
-	
-<!-- slider-->	
+<!--<link rel="stylesheet" type="text/css" href="http://nostressgaming.fr/bootstrap/css/bootstrap.css"/>!-->
+<link rel="stylesheet" type="text/css" href="http://nostressgaming.fr/lightbox/css/lightbox.css" />
+<link rel="stylesheet" type="text/css" href="http://nostressgaming.fr/slick/slick.css" rel="stylesheet"/>
+<link rel="stylesheet" type="text/css" href="http://nostressgaming.fr/slick/slick-theme.css" rel="stylesheet"/>
 
-<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
 	
-	
-<!-- fin slider-->	
 	
 	<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 	
