@@ -1,8 +1,7 @@
     <?php include("./Header.php"); ?> <!-- Incrustation du header avec le menu, la BDD et bootstrap!-->
      
     <!-- Flux d'actualitÃ© automatique avec le contenue du fichier Article_Accueil!-->
-   <link rel="stylesheet" type="text/css" href="http://nostressgaming.fr/slick/slick.css"/>
-  <link rel="stylesheet" type="text/css" href="http://nostressgaming.fr/slick/slick-theme.css"/>
+
     
     <body>
 
