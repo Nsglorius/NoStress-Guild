@@ -35,16 +35,6 @@ height: 300px;
   <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   <script type="text/javascript" src="http://nostressgaming.fr/slick/slick.min.js"></script>
 
-  <script type="text/javascript">
-    $(document).ready(function(){
-      $('.slider').slick({
-  dots: true,
-autoplaySpeed:5000,
-autoplay:true,
-fade: true,
-});
-});
-  </script>
 
 
     <?php
@@ -92,7 +82,17 @@ fade: true,
     closedir($dir);
     ?>
      
-     
+    <script type="text/javascript">
+    $(document).ready(function(){
+      $('.slider').slick({
+  dots: true,
+autoplaySpeed:5000,
+autoplay:true,
+fade: true,
+});
+});
+  </script>
+   
     </body>
      
     <?php include("./Footer.php"); ?> <!-- Incrustation du header avec le menu, la BDD et bootstrap!-->
