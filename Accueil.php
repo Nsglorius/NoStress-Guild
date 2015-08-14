@@ -1,76 +1,51 @@
     <?php include("./Header.php"); ?> <!-- Incrustation du header avec le menu, la BDD et bootstrap!-->
      
     <!-- Flux d'actualitÃ© automatique avec le contenue du fichier Article_Accueil!-->
-     
+   <link rel="stylesheet" type="text/css" href="http://nostressgaming.fr/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="http://nostressgaming.fr/slick/slick-theme.css"/>
+    
     <body>
-<!DOCTYPE html>
-<html lang="en">
 
 
-        <link rel="shortcut icon" href="../favicon.ico"> 
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300,300italic' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" type="text/css" href="http://nostressgaming.fr/slidedown/css/demo.css" />
-        <link rel="stylesheet" type="text/css" href="http://nostressgaming.fr/slidedown/css/style.css" />
 
-<noscript>
-			<style>
-			.step {
-				width: 100%;
-				position: relative;
-			}
-			.step:not(.active) {
-				opacity: 1;
-				filter: alpha(opacity=99);
-				-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=99)";
-			}
-			.step:not(.active) a.jms-link{
-				opacity: 1;
-				margin-top: 40px;
-			}
-			</style>
-		</noscript>
-    </head>
-    <body>
-   
+<style>
 
-			<section id="jms-slideshow" class="jms-slideshow">
-				<div class="step" data-color="color-1">
-					<div class="jms-content" ;>
-						<h3>Legion</h3>
-					<p>Plus de news bienôt</p>
-						 <!--<a class="jms-link" href="#">Read more</a>!-->
-					</div>
-			    </div>
-			    <div class="step" data-color="color-3">
-					<div class="jms-content" ;>
-						<h3>HOTS patch note</p>
-				 <a class="jms-link" href="http://us.battle.net/heroes/en/blog/19818499/heroes-of-the-storm-ptr-patch-notes-august-10-2015-8-10-2015">Read more</a>
-					</div>
-			    </div>http://us.battle.net/heroes/en/blog/19818499/heroes-of-the-storm-ptr-patch-notes-august-10-2015-8-10-2015
-				
-				</div>
-			</section>
-       
-		<script type="text/javascript">
-			$(function() {
-				
-				var jmpressOpts	= {
-					animation		: { transitionDuration : '0.8s' }
-				};
-				
-				$( '#jms-slideshow' ).jmslideshow( $.extend( true, { jmpressOpts : jmpressOpts }, {
-					autoplay	: true,
-					bgColorSpeed: '0.8s',
-					arrows		: false
-				}));
-				
-			});
-		</script>
-    </body>
+.slider{
+width:90%;
+height:300px;
+margin:20px auto;
+background:white;
+}
+.imageslid {
+background-size: cover;
+width:90%;
+height: 300px;
+}
+
+</style>
 
 
-     
+  <div class="slider">
+    <div class="imageslid" style="background-image:url(http://www.millenium.org/images/contenu/actus/wow/fanarts/wow_fanart15122011_hd_1.jpg)"></div>
+    <div class="imageslid" style="background-image:url(http://i.ytimg.com/vi/StTEG-YtyEs/maxresdefault.jpg)"></div>
+    <div class="imageslid" style="background-image:url(http://i.ytimg.com/vi/StTEG-YtyEs/maxresdefault.jpg)"></div>
 
+  </div>
+
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="http://nostressgaming.fr/slick/slick.min.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.slider').slick({
+  dots: true,
+autoplaySpeed:5000,
+autoplay:true,
+fade: true,
+});
+});
+  </script>
 
 
     <?php
