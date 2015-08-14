@@ -25,6 +25,12 @@
 	<script src="http://nostressgaming.fr/lightbox/js/lightbox.min.js"></script>
 	<link href="http://nostressgaming.fr/lightbox/css/lightbox.css" rel="stylesheet" />
 	
+<!-- slider-->	
+<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+// Add the new slick-theme.css if you want the default styling
+<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+	
+<!-- fin slider-->	
 	
 	<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 	
