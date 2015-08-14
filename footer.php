@@ -159,7 +159,10 @@
 	<!-- jmslideshow plugin : extends the jmpress plugin -->
 	<script type="text/javascript" src="http://nostressgaming.fr/slidedown/js/jquery.jmslideshow.js"></script>
 	<script type="text/javascript" src="http://nostressgaming.fr/slidedown/js/modernizr.custom.48780.js"></script>
-	
+	<!-- slider -->	
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>	
 
 <?php
 mysql_close();
