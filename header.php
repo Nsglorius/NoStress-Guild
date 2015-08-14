@@ -30,6 +30,7 @@
 // Add the new slick-theme.css if you want the default styling
 <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 	
+	
 <!-- fin slider-->	
 	
 	<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
