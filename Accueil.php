@@ -15,36 +15,57 @@ background-size: cover;
 width:90%;
 height: 400px;
 }
- 
+.docslid {
+align:center;
+ vertical-align:middle;
+ background-color:#232323;
+ height: 200px;
+ width:400px;
+ margin-top:100px;
+ margin-left:50px;
+ padding-top:2px; 
+ padding-bottom:2px; 
+ padding-right:5px;
+ padding-left:5px;
+ opacity:0.80;
+}
 </style>
  
  
 <div class="slider">
 <div class="imageslid" style="background-image:url(http://nostressgaming.fr/Image/Wow/Photo_slieder_legion.png)">
-<div style="align:center; vertical-align:middle;background-color:#232323;height: 200px;width:400px;margin-top:100px;margin-left:50px; padding-top:2px; padding-bottom:2px; padding-right:5px;padding-left:5px;opacity:0.70;">
- <h1>World Of Wacraft</h1>
-<H3>Legion</H3>
- <button type="button" class="btn btn-default" onclick="http://eu.battle.net/wow/fr/legion/">Plus d'information</button>
-</div>
-</div>
+<div class="docslid">
  
+<h1>World Of Wacraft</h1>
+<H3>Legion</H3>
+ <button type="button" class="btn btn-default"; opacity:1; onclick="window.open('http://eu.battle.net/wow/fr/legion/'); return false";>Plus d'information</button>
+
+</div>
+</div>
+
 <div class="imageslid" style="background-image:url(http://nostressgaming.fr/Image/Wow/photosliderGT.png)">
-<div style="align:center; vertical-align:middle;background-color:#232323;height: 200px;width:400px;margin-top:100px;margin-left:50px; padding-top:2px; padding-bottom:2px; padding-right:5px;padding-left:5px;opacity:0.70;">
+<div class="docslid">
  
 <h1>Hearthstone</h1>
 <p> Grand tournoi</p>
- <button type="button" class="btn btn-default" onclick="http://eu.battle.net/hearthstone/fr/blog/">Plus d'information</button>
+<button type="button" class="btn btn-default"; opacity:1; onclick="window.open('http://eu.battle.net/hearthstone/fr/blog/'); return false";>Plus d'information</button>
+
 </div>
 </div>
 
-<div class="imageslid" style="background-image:urlhttp://i.ytimg.com/vi/E1tzJ9lDY7Y/maxresdefault.jpg)">
-<div style="align:center; vertical-align:middle;background-color:#232323;height: 200px;width:400px;margin-top:100px;margin-left:50px; padding-top:2px; padding-bottom:2px; padding-right:5px;padding-left:5px;opacity:0.70;">
- 
-<h1>Patch note HOTS</h1>
+<div class="imageslid" style="background-image:url(http://i.ytimg.com/vi/E1tzJ9lDY7Y/maxresdefault.jpg)">
+<div class="docslid">
+  <h1>Patch note HOTS</h1>
 <p>Kharazim,Les Sanctuaires infernaux et divers équilibrage</p>
+<button type="button" class="btn btn-default"; opacity:1; onclick="window.open(' http://eu.battle.net/heroes/fr/blog/19818499/royaume-public-de-test-notes-de-mise-%C3%A0-jour-14-ao%C3%BBt-11-08-2015'); return false";>Plus d'information</button>
+</div>
+</div>
 
- <button type="button" class="btn btn-default" onclick=" http://eu.battle.net/heroes/fr/blog/19818499/royaume-public-de-test-notes-de-mise-%C3%A0-jour-14-ao%C3%BBt-11-08-2015">Plus d'information</button>
-
+<div class="imageslid" style="background-image:url(http://blog.askmrrobot.com/wp-content/uploads/2015/01/Avoidable_Mouseover.png)">
+<div class="docslid"> 
+<h1>Log de raid </h1>
+<p>Voici tout les logs de la guilde sur Ask Mr Robot</p>
+<button type="button" class="btn btn-default"; opacity:1; onclick="window.open('http://www.askmrrobot.com/wow/combatlog/guild/eu/culte_de%20la%20rive%20noire/No%20STress";>Plus d'information</button>
 </div>
 </div>
 
