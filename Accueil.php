@@ -1,100 +1,120 @@
-    <?php include("./Header.php"); ?> <!-- Incrustation du header avec le menu, la BDD et bootstrap!-->
-     
-    <!-- Flux d'actualitÃ© automatique avec le contenue du fichier Article_Accueil!-->
-
-    
-    <body>
-
-
-
+ <?php include("./Header.php"); ?> <!-- Incrustation du header avec le menu, la BDD et bootstrap!-->
+ 
+<!-- Flux d'actualitÃ© automatique avec le contenue du fichier Article_Accueil!-->
+ 
+ 
+<body>
+ 
+ 
+ 
 <style>
-
-.slider{
-width:90%;
-height:300px;
-margin:20px auto;
-background:white;
-}
+ 
+ 
 .imageslid {
 background-size: cover;
 width:90%;
-height: 300px;
+height: 400px;
 }
-
+ 
 </style>
+ 
+ 
+<div class="slider">
+<div class="imageslid" style="background-image:url(http://nostressgaming.fr/Image/Wow/Photo_slieder_legion.png)">
+<div style="align:center; vertical-align:middle;background-color:#232323;height: 200px;width:400px;margin-top:100px;margin-left:50px; padding-top:2px; padding-bottom:2px; padding-right:5px;padding-left:5px;opacity:0.70;">
+ <h1>World Of Wacraft</h1>
+<H3>Legion</H3>
+ <button type="button" class="btn btn-default" onclick="http://eu.battle.net/wow/fr/legion/">Plus d'information</button>
+</div>
+</div>
+ 
+<div class="imageslid" style="background-image:url(http://nostressgaming.fr/Image/Wow/photosliderGT.png)">
+<div style="align:center; vertical-align:middle;background-color:#232323;height: 200px;width:400px;margin-top:100px;margin-left:50px; padding-top:2px; padding-bottom:2px; padding-right:5px;padding-left:5px;opacity:0.70;">
+ 
+<h1>Hearthstone</h1>
+<p> Grand tournoi</p>
+ <button type="button" class="btn btn-default" onclick="http://eu.battle.net/hearthstone/fr/blog/">Plus d'information</button>
+</div>
+</div>
 
+<div class="imageslid" style="background-image:urlhttp://i.ytimg.com/vi/E1tzJ9lDY7Y/maxresdefault.jpg)">
+<div style="align:center; vertical-align:middle;background-color:#232323;height: 200px;width:400px;margin-top:100px;margin-left:50px; padding-top:2px; padding-bottom:2px; padding-right:5px;padding-left:5px;opacity:0.70;">
+ 
+<h1>Patch note HOTS</h1>
+<p>Kharazim,Les Sanctuaires infernaux et divers équilibrage</p>
 
-  <div class="slider">
-    <div class="imageslid" style="background-image:url(http://www.millenium.org/images/contenu/actus/wow/fanarts/wow_fanart15122011_hd_1.jpg)"></div>
-    <div class="imageslid" style="background-image:url(http://i.ytimg.com/vi/StTEG-YtyEs/maxresdefault.jpg)"></div>
-    <div class="imageslid" style="background-image:url(http://i.ytimg.com/vi/StTEG-YtyEs/maxresdefault.jpg)"></div>
+ <button type="button" class="btn btn-default" onclick=" http://eu.battle.net/heroes/fr/blog/19818499/royaume-public-de-test-notes-de-mise-%C3%A0-jour-14-ao%C3%BBt-11-08-2015">Plus d'information</button>
 
-  </div>
+</div>
+</div>
 
-  <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-  <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-  <script type="text/javascript" src="http://nostressgaming.fr/slick/slick.min.js"></script>
+</div>
+ 
+ 
 
-
-
-    <?php
-    $req = $bdd->query("DELETE FROM `Temp_Liste_fichier`"); // On vide la table temp
-    $dir_nom = './Article_Accueil'; // On dÃ©finit le dossier Ã  utiliser.
-    $dir = new DirectoryIterator($dir_nom); // On ouvre le dossier.
-     
-    foreach($dir as $directory) { // Pour chaque Ã©lÃ©ment du dossier on crÃ©er une ligne dans la table Temp avec la date de modif et le nom.
-     
-    $Date=filemtime($directory->getPathName(). "");	
-    $Lien=$directory->getPathName(). "";
-    $req = $bdd->query("INSERT INTO `Temp_Liste_fichier`( `Date`,`Lien`) VALUES('$Date','$Lien')"); // crÃ©ation d'une BDD temp avec les nom de fichier
-     
-     
-    }
-    // RÃ©cupÃ©ration de chaque ligne de donnÃ©es, Ã  chaque itÃ©ration, tant qu'il y a des donnÃ©es On recupere tout le contenu de la table Temp
-     
-    $reponse = $bdd->query("SELECT * FROM `Temp_Liste_fichier` ORDER by `Date` DESC");
-     
-    // On rÃ©cupÃ¨re les nom des articles dans l'odre croissant d'anciÃ¨nnetÃ©
-     
-    while ($donnees = $reponse->fetch())
-    {
-    $Lien_aff= $donnees['Lien'];
-    $Lien_bug1= $dir_nom.'/.';
-    $Lien_bug2= $dir_nom.'/..';
-    $Lien_bug3= $dir_nom.'/index.php';
-    if ($Lien_aff != $Lien_bug1 and $Lien_aff != $Lien_bug2 and $Lien_aff != $Lien_bug3 ){// On vÃ©rifie que le lien est bien celui d'un vrai article.
-     
-     
-    //On Incruste l'article dans l'odre
-     
-    echo('<div class="container">');
-    echo('<div class="col-lg-12" >');
-     
-     
-    include($Lien_aff);
-     
-    echo('</div>');
-    echo('</div>');
-     
-    }
-    }
-     
-    closedir($dir);
-    ?>
-     
-    <script type="text/javascript">
-    $(document).ready(function(){
-      $('.slider').slick({
-  dots: true,
+ 
+ 
+<?php
+$req = $bdd->query("DELETE FROM `Temp_Liste_fichier`"); // On vide la table temp
+$dir_nom = './Article_Accueil'; // On dÃ©finit le dossier Ã utiliser.
+$dir = new DirectoryIterator($dir_nom); // On ouvre le dossier.
+ 
+foreach($dir as $directory) { // Pour chaque Ã©lÃ©ment du dossier on crÃ©er une ligne dans la table Temp avec la date de modif et le nom.
+ 
+$Date=filemtime($directory->getPathName(). "");	
+$Lien=$directory->getPathName(). "";
+$req = $bdd->query("INSERT INTO `Temp_Liste_fichier`( `Date`,`Lien`) VALUES('$Date','$Lien')"); // crÃ©ation d'une BDD temp avec les nom de fichier
+ 
+ 
+}
+// RÃ©cupÃ©ration de chaque ligne de donnÃ©es, Ã chaque itÃ©ration, tant qu'il y a des donnÃ©es On recupere tout le contenu de la table Temp
+ 
+$reponse = $bdd->query("SELECT * FROM `Temp_Liste_fichier` ORDER by `Date` DESC");
+ 
+// On rÃ©cupÃ¨re les nom des articles dans l'odre croissant d'anciÃ¨nnetÃ©
+ 
+while ($donnees = $reponse->fetch())
+{
+$Lien_aff= $donnees['Lien'];
+$Lien_bug1= $dir_nom.'/.';
+$Lien_bug2= $dir_nom.'/..';
+$Lien_bug3= $dir_nom.'/index.php';
+if ($Lien_aff != $Lien_bug1 and $Lien_aff != $Lien_bug2 and $Lien_aff != $Lien_bug3 ){// On vÃ©rifie que le lien est bien celui d'un vrai article.
+ 
+ 
+//On Incruste l'article dans l'odre
+ 
+echo('<div class="container">');
+echo('<div class="col-lg-12" >');
+ 
+ 
+include($Lien_aff);
+ 
+echo('</div>');
+echo('</div>');
+ 
+}
+}
+ 
+closedir($dir);
+?>
+ 
+<script type="text/javascript">
+$(document).ready(function(){
+$('.slider').slick({
+dots: true,
 autoplaySpeed:5000,
 autoplay:true,
 fade: true,
+infinite:true,
+pauseOnHover:true,
+arrows: false,
 });
 });
-  </script>
-   
-    </body>
-     
-    <?php include("./Footer.php"); ?> <!-- Incrustation du header avec le menu, la BDD et bootstrap!-->
-     
-    
+</script>
+ 
+</body>
+ 
+<?php include("./Footer.php"); ?> <!-- Incrustation du header avec le menu, la BDD et bootstrap!-->
+ 
+ 
